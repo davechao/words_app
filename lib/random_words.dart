@@ -5,11 +5,11 @@ import 'package:name_app/my_words.dart';
 class RandomWords extends StatefulWidget {
   @override
   State<StatefulWidget> createState() {
-    return RandomWordsState();
+    return _RandomWordsState();
   }
 }
 
-class RandomWordsState extends State<RandomWords> {
+class _RandomWordsState extends State<RandomWords> {
   final List<WordPair> _suggestions = [];
   final Set<WordPair> _saved = Set<WordPair>();
 
