@@ -8,7 +8,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Startup Name Generator',
+      title: 'Word Generator',
       home: RandomWords(),
     );
   }
